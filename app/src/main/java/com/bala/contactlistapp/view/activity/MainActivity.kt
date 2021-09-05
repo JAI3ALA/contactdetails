@@ -141,6 +141,7 @@ class MainActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener,
                         callFetchAndShowUI()
                     }
                 } else {
+                    pbHeaderProgress!!.visibility = View.GONE
                     Log.i("TAG", "Not agree Contact permission")
                     Toast.makeText(
                         this@MainActivity,
