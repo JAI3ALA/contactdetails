@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ContactListApp</string>
+    <string name="empty_field">--</string>
+    <string name="contact_details">Contact Details</string>
+</resources>
